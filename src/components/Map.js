@@ -19,11 +19,11 @@ class Map extends React.Component{
     constructor(props){
         super(props);
         if(this.props.match.params.language === "en"){
-            this.state = {style1: {}, style2: green, data: dataEn}
+            this.state = {style1: {}, style2: green, data: dataEn, language: "en"}
         }else if(this.props.match.params.language === "de"){
-            this.state = {style1: green, style2: {}, data: data}
+            this.state = {style1: green, style2: {}, data: data, language: "de"}
         }else{
-            this.state = {style1: green, style2: {}, datat: data}
+            this.state = {style1: green, style2: {}, datat: data, language: "de"}
         }
         this.state = {...this.state, viewport: viewport,
           selectedHotspot: null, margin: {margin: "0 0 55px 55px"}, fullscreen: false}
@@ -67,10 +67,10 @@ class Map extends React.Component{
                         <h2>Holzkirchen</h2>
                     </Link>
                     <div className="languageButton">
-                        {localStorage.getItem('darkmode')==="true"?<p onClick={() => this.setState({style1: green, style2: {}, data: data, selectedHotspot: null})} style={this.state.style1 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>DE</p>:
-                        <p onClick={() => this.setState({style1: green, style2: {}, data: data, selectedHotspot: null})} style={this.state.style1}>DE</p>}
-                        {localStorage.getItem('darkmode')==="true"?<p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null})} style={this.state.style2 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>EN</p>:
-                        <p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null})} style={this.state.style2}>EN</p>}
+                        {localStorage.getItem('darkmode')==="true"?<p onClick={() => this.setState({style1: green, style2: {}, data: data, selectedHotspot: null, language: "de"})} style={this.state.style1 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>DE</p>:
+                        <p onClick={() => this.setState({style1: green, style2: {}, data: data, selectedHotspot: null, language: "de"})} style={this.state.style1}>DE</p>}
+                        {localStorage.getItem('darkmode')==="true"?<p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null, language: "en"})} style={this.state.style2 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>EN</p>:
+                        <p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null, language: "en"})} style={this.state.style2}>EN</p>}
                     </div>
                 </div>
                 <ReactMapGL className="mapContainer" onClick={() => window.innerWidth < 800?this.closePopup():null} style={this.state.margin} mapStyle={'mapbox://styles/mapbox/'+(localStorage.getItem('darkmode')==="true"?'dark-v10':'streets-v11')} mapboxApiAccessToken="pk.eyJ1IjoidG9iaS1iMyIsImEiOiJja2E4OG1lMzQwNzhmMzBsNXV5M2JjYzFzIn0.bDmoJnRAyBxXH4agODN4Ew"
@@ -102,7 +102,7 @@ class Map extends React.Component{
                             <line x1="6.26144" y1="9.28512" x2="10.8725" y2="4.6741" stroke="#828282"/>
                             <line x1="6.39335" y1="0.646447" x2="11.0044" y2="5.25747" stroke="#828282"/>
                         </svg>
-                    {" "}zur Station
+                    {this.state.language==="de"?" zur Station":" more details"}
                     </a>
                     </Popup>
                     ) : null}
@@ -119,7 +119,7 @@ class Map extends React.Component{
                             <line x1="6.26144" y1="9.28512" x2="10.8725" y2="4.6741" stroke="#828282"/>
                             <line x1="6.39335" y1="0.646447" x2="11.0044" y2="5.25747" stroke="#828282"/>
                         </svg>
-                    {" "}zur Station
+                        {this.state.language==="de"?" zur Station":" more details"}
                     </a>
                 </div>:null}
             </div>

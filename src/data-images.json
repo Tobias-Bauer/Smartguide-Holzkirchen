@@ -1,0 +1,383 @@
+[{
+    "info": 1,
+    "audio": "Herdergarten.mp3",
+    "images": [
+        {
+            "name": "Herdergarten1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 23
+        },
+        {
+            "name": "Herdergarten2.png",
+            "min_minute": 0,
+            "min_second": 23,
+            "max_minute": 2,
+            "max_second": 1
+        },
+        {
+            "name": "Herdergarten3.png",
+            "min_minute": 2,
+            "min_second": 1,
+            "max_minute": 2,
+            "max_second": 7
+        },
+        {
+            "name": "Herdergarten4.png",
+            "min_minute": 2,
+            "min_second": 7,
+            "max_minute": 2,
+            "max_second": 32
+        },
+        {
+            "name": "Herdergarten5.png",
+            "min_minute": 2,
+            "min_second": 32,
+            "max_minute": 3,
+            "max_second": 5
+        },
+        {
+            "name": "Herdergarten6.png",
+            "min_minute": 3,
+            "min_second": 5,
+            "max_minute": 4,
+            "max_second": 24
+        }
+    ]
+},
+{
+    "info": 2,
+    "audio": "alte Rathaus.mp3",
+    "images": [
+        {
+            "name": "Rathaus1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 22
+        }
+    ]
+},
+{
+    "info": 3,
+    "audio": "Marktplatz.mp3",
+    "images": [
+        {
+            "name": "Markt1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 30
+        },
+        {
+            "name": "Markt2.png",
+            "min_minute": 0,
+            "min_second": 30,
+            "max_minute": 1,
+            "max_second": 0
+        },
+        {
+            "name": "Markt3.png",
+            "min_minute": 1,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 30
+        },
+        {
+            "name": "Markt4.png",
+            "min_minute": 1,
+            "min_second": 30,
+            "max_minute": 2,
+            "max_second": 0
+        },
+        {
+            "name": "Markt5.png",
+            "min_minute": 2,
+            "min_second": 0,
+            "max_minute": 2,
+            "max_second": 30
+        },
+        {
+            "name": "Markt6.png",
+            "min_minute": 2,
+            "min_second": 30,
+            "max_minute": 3,
+            "max_second": 0
+        },
+        {
+            "name": "Markt7.png",
+            "min_minute": 3,
+            "min_second": 0,
+            "max_minute": 3,
+            "max_second": 30
+        },
+        {
+            "name": "Markt8.png",
+            "min_minute": 3,
+            "min_second": 30,
+            "max_minute": 4,
+            "max_second": 0
+        },
+        {
+            "name": "Markt9.png",
+            "min_minute": 4,
+            "min_second": 0,
+            "max_minute": 4,
+            "max_second": 30
+        },
+        {
+            "name": "Markt10.png",
+            "min_minute": 4,
+            "min_second": 30,
+            "max_minute": 5,
+            "max_second": 48
+        }
+    ]
+},
+{
+    "info": 4,
+    "audio": "St. Laurentius.m4a",
+    "images": [
+        {
+            "name": "St Laurentius3.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 44
+        },
+        {
+            "name": "St Laurentius1.png",
+            "min_minute": 0,
+            "min_second": 44,
+            "max_minute": 1,
+            "max_second": 28
+        },
+        {
+            "name": "St Laurentius2.png",
+            "min_minute": 1,
+            "min_second": 28,
+            "max_minute": 2,
+            "max_second": 13
+        }
+    ]
+},
+{
+    "info": 5,
+    "audio": "Alte Post.mp3",
+    "images": [
+        {
+            "name": "Alte Post1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 12
+        },
+        {
+            "name": "Alte Post2.jpg",
+            "min_minute": 0,
+            "min_second": 12,
+            "max_minute": 0,
+            "max_second": 32
+        },
+        {
+            "name": "Alte Post3.jpg",
+            "min_minute": 0,
+            "min_second": 32,
+            "max_minute": 0,
+            "max_second": 54
+        },
+        {
+            "name": "Alte Post1.png",
+            "min_minute": 0,
+            "min_second": 54,
+            "max_minute": 4,
+            "max_second": 3
+        }
+    ]
+},
+{
+    "info": 6,
+    "audio": "Oberbreau.mp3",
+    "images": [
+        {
+            "name": "Oberbraeu1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 58
+        },
+        {
+            "name": "Oberbraeu2.png",
+            "min_minute": 0,
+            "min_second": 58,
+            "max_minute": 1,
+            "max_second": 56
+        },
+        {
+            "name": "Oberbraeu3.png",
+            "min_minute": 1,
+            "min_second": 56,
+            "max_minute": 2,
+            "max_second": 53
+        }
+    ]
+},
+{
+    "info": 7,
+    "audio": "Pestkapelle.mp3",
+    "images": [
+        {
+            "name": "Pestkapelle1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 15
+        },
+        {
+            "name": "Pestkapelle2.png",
+            "min_minute": 1,
+            "min_second": 15,
+            "max_minute": 3,
+            "max_second": 22
+        }
+    ]
+},
+{
+    "info": 8,
+    "audio": "Bahnhof.mp3",
+    "images": [
+        {
+            "name": "Bahnhof1.png",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 0
+        },
+        {
+            "name": "Bahnhof2.png",
+            "min_minute": 1,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 36
+        },
+        {
+            "name": "Bahnhof3.png",
+            "min_minute": 1,
+            "min_second": 36,
+            "max_minute": 2,
+            "max_second": 0
+        },
+        {
+            "name": "Bahnhof4.png",
+            "min_minute": 2,
+            "min_second": 0,
+            "max_minute": 2,
+            "max_second": 27
+        }
+    ]
+},
+{
+    "info": 9,
+    "audio": "Teufelsgraben.mp3",
+    "images": [
+        {
+            "name": "TeufelsgrabenSatelit.jpeg",
+            "min_minute": 0,
+            "min_second": 0,
+            "max_minute": 0,
+            "max_second": 30
+        },
+        {
+            "name": "Teufelsgraben1.jpg",
+            "min_minute": 0,
+            "min_second": 30,
+            "max_minute": 0,
+            "max_second": 45
+        },
+        {
+            "name": "Teufelsgraben2.jpg",
+            "min_minute": 0,
+            "min_second": 45,
+            "max_minute": 1,
+            "max_second": 0
+        },
+        {
+            "name": "Teufelsgraben3.jpg",
+            "min_minute": 1,
+            "min_second": 0,
+            "max_minute": 1,
+            "max_second": 15
+        },
+        {
+            "name": "Teufelsgraben4.jpg",
+            "min_minute": 1,
+            "min_second": 15,
+            "max_minute": 1,
+            "max_second": 30
+        },
+        {
+            "name": "Teufelsgraben5.jpg",
+            "min_minute": 1,
+            "min_second": 30,
+            "max_minute": 1,
+            "max_second": 45
+        },
+        {
+            "name": "Teufelsgraben6.jpg",
+            "min_minute": 1,
+            "min_second": 45,
+            "max_minute": 2,
+            "max_second": 0
+        },
+        {
+            "name": "Teufelsgraben7.jpg",
+            "min_minute": 2,
+            "min_second": 0,
+            "max_minute": 2,
+            "max_second": 15
+        },
+        {
+            "name": "Teufelsgraben8.jpg",
+            "min_minute": 2,
+            "min_second": 15,
+            "max_minute": 2,
+            "max_second": 30
+        },
+        {
+            "name": "Teufelsgraben9.jpg",
+            "min_minute": 2,
+            "min_second": 30,
+            "max_minute": 2,
+            "max_second": 45
+        },
+        {
+            "name": "Teufelsgraben10.jpg",
+            "min_minute": 2,
+            "min_second": 45,
+            "max_minute": 3,
+            "max_second": 0
+        },
+        {
+            "name": "Teufelsgraben11.jpg",
+            "min_minute": 3,
+            "min_second": 0,
+            "max_minute": 3,
+            "max_second": 15
+        },
+        {
+            "name": "Teufelsgraben12.jpg",
+            "min_minute": 3,
+            "min_second": 15,
+            "max_minute": 3,
+            "max_second": 30
+        },
+        {
+            "name": "TeufelsgrabenSatelit.jpeg",
+            "min_minute": 3,
+            "min_second": 30,
+            "max_minute": 4,
+            "max_second": 13
+        }
+    ]
+}]

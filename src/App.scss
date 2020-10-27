@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-family: Raleway-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+  margin: 0 15px 5px 15px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .languageButton{
+      margin: 55px 55px 0 0;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      p{
+          font-size: 18px;
+          padding: 6px 18px 6px 18px;
+      }
+  }
+  h1{
+      font-family: Montserrat-ExtraBold;
+      font-style: normal;
+      font-size: 48px;
+      line-height: 59px;
+      text-transform: uppercase;
+      color: #A0C510;
+      margin: 55px 0 0 55px;
+  }
+  h2{
+      font-family: Montserrat-Light;
+      font-style: normal;
+      font-size: 36px;
+      line-height: 44px;
+      text-transform: uppercase;
+      color: #BDBDBD;
+      margin: 0 0 18px 55px;
+  }
+  a {
+      margin: 0;
+  }
+}
+@media(max-width: 800px) {
+  .header{
+      flex-direction: column;
+      .languageButton{
+          position: relative;
+          margin: 0 0 48px 27px;
+          right: 0 ;
+          p{
+              padding: 4px 12px 4px 12px ;
+          }
+      }
+      h1 {
+          font-size: 28px ;
+          line-height: 48px ;
+          margin: 36px 0 0 27px ;
+      }
+      h2 {
+          font-size: 24px ;
+          line-height: 40px ;
+          color: #A0C510 ;
+          margin: 0 0 15px 27px ;
+      }
+      a {
+          margin: 0 ;
+      }
+  }
+}
+
+.darkMode {
+    .header, .mapboxgl-ctrl, .home, .modal, .mapboxgl-popup-content {
+        background-color: black;
+        color: white
+    }
+    .languageButton {
+        background-color: #262626;
+    }
+    .mapboxgl-popup-close-button{
+        color: white;
+    }
+    .mapboxgl-popup-anchor-right {
+        .mapboxgl-popup-tip {
+            border-left-color: black;
+        }
+    }
+    .mapboxgl-popup-anchor-left {
+        .mapboxgl-popup-tip {
+            border-right-color: black;
+        }
+    }
+    .mapboxgl-popup-anchor-top-left, .mapboxgl-popup-anchor-top, .mapboxgl-popup-anchor-top-right {
+        .mapboxgl-popup-tip {
+            border-bottom-color: black;
+        }
+    }
+    .mapboxgl-popup-anchor-bottom-left, .mapboxgl-popup-anchor-bottom, .mapboxgl-popup-anchor-bottom-right {
+        .mapboxgl-popup-tip {
+            border-top-color: black;
+        }
+    }
+    .mapboxgl-ctrl-geolocate {
+        background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 20 20" fill="white"><path d="M10 4C9 4 9 5 9 5v.1A5 5 0 005.1 9H5s-1 0-1 1 1 1 1 1h.1A5 5 0 009 14.9v.1s0 1 1 1 1-1 1-1v-.1a5 5 0 003.9-3.9h.1s1 0 1-1-1-1-1-1h-.1A5 5 0 0011 5.1V5s0-1-1-1zm0 2.5a3.5 3.5 0 110 7 3.5 3.5 0 110-7z"/><circle cx="10" cy="10" r="2"/></svg>');
+    }
+    .mapboxgl-ctrl-fullscreen {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='29' height='29' viewBox='0 0 29 29' xmlns='http://www.w3.org/2000/svg' fill='white'%3E%3Cpath d='M24 16v5.5c0 1.75-.75 2.5-2.5 2.5H16v-1l3-1.5-4-5.5 1-1 5.5 4 1.5-3h1zM6 16l1.5 3 5.5-4 1 1-4 5.5 3 1.5v1H7.5C5.75 24 5 23.25 5 21.5V16h1zm7-11v1l-3 1.5 4 5.5-1 1-5.5-4L6 13H5V7.5C5 5.75 5.75 5 7.5 5H13zm11 2.5c0-1.75-.75-2.5-2.5-2.5H16v1l3 1.5-4 5.5 1 1 5.5-4 1.5 3h1V7.5z'/%3E%3C/svg%3E");
+    }
+    .mapboxgl-ctrl-shrink {
+        background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="white"><path d="M18.5 16c-1.75 0-2.5.75-2.5 2.5V24h1l1.5-3 5.5 4 1-1-4-5.5 3-1.5v-1h-5.5zM13 18.5c0-1.75-.75-2.5-2.5-2.5H5v1l3 1.5L4 24l1 1 5.5-4 1.5 3h1v-5.5zm3-8c0 1.75.75 2.5 2.5 2.5H24v-1l-3-1.5L25 5l-1-1-5.5 4L17 5h-1v5.5zM10.5 13c1.75 0 2.5-.75 2.5-2.5V5h-1l-1.5 3L5 4 4 5l4 5.5L5 12v1h5.5z"/></svg>');
+    }
+    button.mapboxgl-ctrl-geolocate .mapboxgl-ctrl-icon {
+        background-image: none;
+    }
+    button.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon {
+        background-image: none;
+    }
+    button.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon {
+        background-image: none;
+    }
+    .mapboxgl-ctrl-attrib{
+        background-color: rgba($color: #000000, $alpha: .2);
+    }
+    .mapboxgl-ctrl-bottom-left {
+        div{
+            background-color: transparent;
+        }
+    }
+    .mapboxgl-ctrl-attrib-inner {
+        a{
+        color: white;
+        }
+    }
+}

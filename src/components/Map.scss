@@ -1,0 +1,48 @@
+.map{
+    h3{
+        font-family: Montserrat-ExtraBold;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 5px 15px 0 15px;
+        color: #A0C510;
+    }
+    .mapPopup{
+        a {
+            margin: 0 0 0 15px;
+        }
+    }
+    .modal {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        width: 80vw;
+        left: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px 12px 0px 0px;
+        padding: 10px 0 10px 0;
+        z-index: 100;
+    }
+    .customMarker{
+        padding: 0 0 0 10.35px;
+        position: absolute;
+    }
+    .mapControls{
+        padding: 2px 2px 0 0;
+        position: realative;
+        right: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        .mapboxgl-ctrl-geolocate{
+            margin-top: 5px;
+        }
+    }
+    *:focus {
+        outline:none !important;
+        box-shadow: none;
+    }
+}

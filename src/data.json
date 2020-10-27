@@ -135,14 +135,21 @@
 {
     "text": [
         {
-            "text": "Eine alte kleine Kapelle, die zum Andenken an die zahlreichen Pestopfer der schlimmen Pestepidemien erbaut wurde? Und das mitten in Holzkirchen!?"
+            "text": "Eine alte, kleine Kapelle, die zum Andenken an die zahlreichen Pestopfer der schlimmen Pestepidemien erbaut wurde? Und das mitten in Holzkirchen!?"
         },
         {
             "text": "Noch nie davon gehört? Dann seid Ihr hier genau richtig."
         },
         {
             "text": "Ich nehme euch gemeinsam mit Pfarrer Gottfried Doll auf eine geschichtliche Erkundung."
+        },
+        {
+            "image": "Pestkapelle1.png"   
+        },
+        {
+            "image": "Pestkapelle2.png"   
         }
+        
     ],
     "longitude": 11.699990,
     "latitude": 47.878708,

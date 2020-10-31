@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './components/Home';
 import Map from './components/Map';
 import Station from './components/Station';
+import About from './components/About';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import './App.scss';
 
@@ -41,6 +42,7 @@ class App extends React.Component{
               <Route path="/home/:language" component={Home} />
               <Route path="/map/:language" component={Map} />
               <Route path="/station/:language/:id" component={Station} />
+              <Route path="/about/:language" component={About} />
               <Redirect path="/map" to="/map/de"/>
               <Redirect path="*" to="/home/de"/>
           </Switch>

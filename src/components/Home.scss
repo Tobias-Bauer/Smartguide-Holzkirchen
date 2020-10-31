@@ -73,8 +73,19 @@
         height: 50px
     }
 }
+.about {
+    position: absolute;
+    left: 100px;
+    margin: 0;
+    bottom: 10px;
+    font-size: 20px;
+    color: rgba($color: #000000, $alpha: .3);
+}
 @media(max-width: 1000px) {
     .home{
+        .about {
+            left: 42px;
+        }
         .modeButton {
             svg {
                 right: 30px;

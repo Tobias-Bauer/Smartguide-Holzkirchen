@@ -37,7 +37,7 @@ class App extends React.Component{
                     <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" > <path fill="none" stroke="#BDBDBD" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" ></path> </svg>}
                 </div>
                 <div className="HomeText">
-                    <h3>Willkommen zum</h3>
+                    <h3>{this.state.style1 === green?"Willkommen zum":"Welcom to"}</h3>
                     <h1>Smartguide</h1>
                     <h2>Holzkirchen</h2>
                 </div>
@@ -49,7 +49,7 @@ class App extends React.Component{
                         <p onClick={() => this.setState({style1: {}, style2: green})} style={this.state.style2}>EN</p>}
                     </div>
                     <div className="moveOn">
-                        <a href={"/map/"+(this.state.style1 === green? "de":"en")} >zum Guide{" "}
+                        <a href={"/map/"+(this.state.style1 === green? "de":"en")} >{this.state.style1 === green?"zum Guide ":"to the guide "}
                             <svg width="18px" height="2.52vh" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="-0.000366211" y1="14.0883" x2="30.1696" y2="14.0883" stroke="#828282" strokeWidth="2"/>
                                 <line x1="17.7382" y1="27.6874" x2="31.2929" y2="14.1327" stroke="#828282" strokeWidth="2"/>
@@ -58,6 +58,9 @@ class App extends React.Component{
                         </a>
                     </div>
                 </div>
+                {this.state.style1 === green?
+                    <a href={"/about/de"} className="about" >Über dieses Projekt</a>:
+                    <a href={"/about/en"} className="about" >About this Projekt</a>}
             </div>
         );
     }

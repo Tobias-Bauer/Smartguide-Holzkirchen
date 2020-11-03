@@ -14,7 +14,7 @@ class About extends React.Component{
     }
     render() {
         return(
-        <div className="aboutContent">
+        <div>
             <div className="header">
                 <Link to={"/home/"+(this.state.style1 === green? "de":"en")}>
                     <h1>Smartguide</h1>

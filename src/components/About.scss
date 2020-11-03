@@ -1,56 +1,60 @@
-p,li {
-    font-family: Raleway-Medium;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #828282;
-    margin: 20px 55px 20px 55px;
-}
-img {
-    width: calc(100vw - 110px);
-    margin-left: 55px;
-}
-h1{
-    margin-left: 55px;
-    font-family: Montserrat-ExtraBold;
-    font-style: normal;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    margin: 10px 0 20px 55px;
-    color: #A0C510;
-}
-.grid {
-    display: grid;
-    grid-template-columns: 30vw calc(70vw - 80px);
-    margin-left: 80px;
+.aboutContent {
     p,li {
-        margin: 0 5px 16px 0;
+        font-family: Raleway-Medium;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #828282;
+        margin: 20px 55px 20px 55px;
     }
-    ul{
-        margin-top: 0;
+    img {
+        width: calc(100vw - 110px);
+        margin-left: 55px;
+    }
+    h1{
+        margin-left: 55px;
+        font-family: Montserrat-ExtraBold;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin: 10px 0 20px 55px;
+        color: #A0C510;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 30vw calc(70vw - 80px);
+        margin-left: 80px;
+        p,li {
+            margin: 0 5px 16px 0;
+        }
+        ul{
+            margin-top: 0;
+        }
     }
 }
 
 @media(max-width: 800px) {
-    p,li {
-        font-size: 18px;
-        line-height: 21px;
-        margin: 0 27px 20px 27px;
-    }
-    img {
-        width: calc(100vw - 54px);
-        margin-left: 27px;
-    }
-    h1{
-        font-size: 30px !important;
-        line-height: 33px !important;
-        margin: 5px 27px 16px 27px;
-    }
-    .grid {
-        display: grid;
-        grid-template-columns: 30vw calc(70vw - 47px);
-        margin-left: 47px;
+    .aboutContent{
+        p,li {
+            font-size: 18px;
+            line-height: 21px;
+            margin: 0 27px 20px 27px;
+        }
+        img {
+            width: calc(100vw - 54px);
+            margin-left: 27px;
+        }
+        h1{
+            font-size: 30px !important;
+            line-height: 33px !important;
+            margin: 5px 27px 16px 27px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 30vw calc(70vw - 47px);
+            margin-left: 47px;
+        }
     }
 }

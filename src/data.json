@@ -135,11 +135,17 @@
         {
             "image": "Oberbraeu1.png"
         },
+        {   
+            "text":  "Foto: Manfred Lehner"
+        },
         {
             "image": "Oberbraeu2.png"   
         },
         {
             "image": "Oberbraeu3.png"
+        },
+        {
+            "text": "Foto: Manfred Lehner"   
         }
     ],
     "longitude": 11.700479,

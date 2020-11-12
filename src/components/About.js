@@ -47,13 +47,13 @@ class About extends React.Component{
                     {this.state.mehr?
                     <h1 onClick={() => this.setState({mehr: !this.state.mehr})}>
                         <svg width="21" height="10" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="1.31134e-07" y1="1.5" x2="21" y2="1.5" stroke="#A0C510" stroke-width="3"/>
+                            <line x1="1.31134e-07" y1="1.5" x2="21" y2="1.5" stroke="#A0C510" strokeWidth="3"/>
                         </svg>
                         weniger zum Team</h1>:
                         <h1 onClick={() => this.setState({mehr: !this.state.mehr})}>
                             <svg width="21" height="15" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line x1="10.5" y1="-6.55671e-08" x2="10.5" y2="21" stroke="#A0C510" stroke-width="3"/>
-                                <line x1="1.31134e-07" y1="10.5" x2="21" y2="10.5" stroke="#A0C510" stroke-width="3"/>
+                                <line x1="10.5" y1="-6.55671e-08" x2="10.5" y2="21" stroke="#A0C510" strokeWidth="3"/>
+                                <line x1="1.31134e-07" y1="10.5" x2="21" y2="10.5" stroke="#A0C510" strokeWidth="3"/>
                             </svg>
                             mehr zum Team</h1>}
                     {this.state.mehr?<div className="grid">
@@ -82,10 +82,10 @@ class About extends React.Component{
                 Your Smartguide-Team
                 </p>
             </div>}
-            <Link className="bottom" to={"/map/"+(this.state.style1 === green? "de":"en")}>
+            <Link className="bottomContainer" to={"/map/"+(this.state.style1 === green? "de":"en")}>
                 <h5>zum Guide 
                     <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L8 8L1 15" stroke="white" stroke-width="2"/>
+                        <path d="M1 1L8 8L1 15" stroke="white" strokeWidth="2"/>
                     </svg>
                 </h5>
             </Link>

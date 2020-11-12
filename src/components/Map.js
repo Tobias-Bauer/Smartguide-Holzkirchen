@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 var viewport = {
     width: 'calc(100vw - 110px)',
-    height: 'calc(100vh - 236px)',
+    height: window.innerHeight-236+"px",
     latitude: 47.88498,
     longitude: 11.69754,
     zoom: 13,
@@ -31,15 +31,15 @@ class Map extends React.Component{
     modifyViewport() {
         if(window.innerWidth < 800){
             viewport.width = "100vw"
-            viewport.height = 'calc(100vh - 223px)'
+            viewport.height = window.innerHeight-223+"px"
             this.setState({margin: {margin: "0"}})
         }else if(window.innerHeight < 500){
             viewport.width = "100vw"
-            viewport.height = 'calc(100vh - 177px)'
+            viewport.height = window.innerHeight-177+"px"
             this.setState({margin: {margin: "0"}})
         } else {
             viewport.width = 'calc(100vw - 110px)'
-            viewport.height = 'calc(100vh - 231px)'
+            viewport.height = window.innerHeight-231+"px"
             this.setState({margin: {margin: "0 0 55px 55px"}})
         }
         this.setState({viewport: viewport})

@@ -76,7 +76,7 @@ class About extends React.Component{
                 </div>
             </div>:
             <div>
-                <p>“Grüß Gott” (a traditionally Bavarian way of saying hello)<br/>
+                <p>(a traditionally Bavarian way of saying hello)<br/>
                 Welcome to our Smartguide of Holzkirchen. We are a group of students of the Staatliches Gymnasium Holzkirchen and have been working on this project for a couple of months. Over the course of this time we have gotten to know our hometown and its beautiful sights a lot better. To share our knowledge, we created a website (an app) filled with audioguides and informative texts. Additionally, authentic images help to create a real-life impression. We hope you enjoy it.
                 <br/><br/>
                 Your Smartguide-Team

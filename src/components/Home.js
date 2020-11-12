@@ -41,6 +41,12 @@ class App extends React.Component{
                     <h1>Smartguide</h1>
                     <h2>Holzkirchen</h2>
                 </div>
+                <div className="space" style={{height: window.innerHeight-420+"px"}}>
+                    <img alt="home_picture" src={require("../images/home.jpg")}/>
+                </div>
+                <div className="space2" style={{height: window.innerHeight-80+"px"}}>
+                    <img alt="home_picture" src={require("../images/home.jpg")}/>
+                </div>
                 <div className="ContainerHome">
                     <div className="languageButton" style={this.state.dark?{backgroundColor: "#262626"}:{backgroundColor: "#F4F4F4"}}>
                         {this.state.dark?<p onClick={() => this.setState({style1: green, style2: {}})} style={this.state.style1 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>DE</p>:

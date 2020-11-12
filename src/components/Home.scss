@@ -26,6 +26,16 @@
         margin: 27px 0 0 0;
     }
 }
+
+.space {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    margin: 10px 0 10px 0;
+    img {
+        height: calc(100% - 20px);
+    }
+}
 .ContainerHome{
     display: flex;
 }
@@ -81,7 +91,38 @@
     font-size: 20px;
     color: rgba($color: #000000, $alpha: .3);
 }
+@media (min-width: 500px) {
+    .space {
+        display: none;
+    }
+}
+@media (max-height: 650px) {
+    .space {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .space2 {
+        display: none !important;
+    }
+}
+@media (min-width: 1000px) {
+    .space2 {
+        display: none !important;
+    }
+}
 @media(max-width: 1000px) {
+    .space2 {
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: calc(100vw - 400px);
+        img {
+            height: calc(100% - 100px);
+        }
+    }
     .home{
         .about {
             left: 42px;

@@ -101,6 +101,16 @@
         display: none;
     }
 }
+@media (max-width: 600px) {
+    .HomeText {
+        h1 {
+            font-size: 40px !important;
+        }
+        h2 {
+            font-size: 30px !important;
+        }
+    }
+}
 @media (max-width: 700px) {
     .space2 {
         display: none !important;

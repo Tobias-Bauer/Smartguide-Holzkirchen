@@ -57,6 +57,11 @@ class About extends React.Component{
                             </svg>
                             mehr zum Team</h1>}
                     {this.state.mehr?<div className="grid">
+                        <p>Katharina Blind</p>
+                        <ul>
+                            <li>Design und Inhaltsstrategie</li>
+                            <li>Station zum Herdergarten</li>
+                        </ul>
                         <p>Leonard von Foerster:</p>
                         <ul>
                             <li>Erstellung der App mit Flutter</li>

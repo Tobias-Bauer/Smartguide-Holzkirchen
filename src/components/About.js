@@ -39,7 +39,7 @@ class About extends React.Component{
             {this.state.language==="de"?
             <div className="aboutText">
                 <p>
-                Wir, das Projektseminar „Smartguide für Holzkirchen“ des Staatlichen Gymnasiums Holzkirchen, heißen Sie herzlich Willkommen auf unserer Website (in der App). Über einige Monate hinweg haben wir uns intensiv mit unserem Heimatort Holzkirchen beschäftigt und einen Smartguide über die bedeutsamsten Standorte erstellt. Zu diesen wird Ihnen jeweils ein Audioguide und ein Informationstext mit authentischen Bildern zur Verfügung gestellt, damit Sie sich einen realistischen Eindruck verschaffen können. Dabei wünschen wir Ihnen viel Spaß.
+                Wir, das Projektseminar „Smartguide für Holzkirchen“ des Staatlichen Gymnasiums Holzkirchen, heißen Sie herzlich willkommen auf unserer Website (in der App). Über einige Monate hinweg haben wir uns intensiv mit unserem Heimatort Holzkirchen beschäftigt und einen Smartguide zu interessanten Orten erstellt. Zu diesen wird Ihnen jeweils ein Audioguide und ein Informationstext mit authentischen Bildern zur Verfügung gestellt, damit Sie sich einen realistischen Eindruck verschaffen können. Dabei wünschen wir Ihnen viel Spaß.
                 <br/><br/>
                 Ihr Projektseminar 
                 </p>

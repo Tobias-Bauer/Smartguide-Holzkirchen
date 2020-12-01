@@ -57,15 +57,20 @@ class About extends React.Component{
                             </svg>
                             mehr zum Team</h1>}
                     {this.state.mehr?<div className="grid">
-                        <p>Katharina Blind</p>
-                        <ul>
-                            <li>Design und Inhaltsstrategie</li>
-                            <li>Station zum Herdergarten</li>
-                        </ul>
                         <p>Leonard von Foerster:</p>
                         <ul>
                             <li>Erstellung der App mit Flutter</li>
                             <li>Station zum Alten Rathaus</li>
+                        </ul>
+                        <p>Katharina Blind:</p>
+                        <ul>
+                            <li>Design und Inhaltsstrategie</li>
+                            <li>Station zum Herdergarten</li>
+                        </ul>
+                        <p>Caroline Reiter:</p>
+                        <ul>
+                            <li>Projektleiterin</li>
+                            <li>Station zum Marktplatz</li>
                         </ul>
                         <p>Fabian Kuske:</p>
                         <ul>
@@ -76,6 +81,21 @@ class About extends React.Component{
                         <ul>
                             <li>Erstellung der Website mit ReactJS</li>
                             <li>Station zum Teufelsgraben</li>
+                        </ul>
+                        <p>Lisa Hartlep:</p>
+                        <ul>
+                            <li>Sponsorenzusammenarbeit</li>
+                            <li>Station zur St. Laurentiuskirche</li>
+                        </ul>
+                        <p>Takemi Ando:</p>
+                        <ul>
+                            <li>Marketing/Organisation</li>
+                            <li>Station zur Pestkapelle</li>
+                        </ul>
+                        <p>Philipp Dunst:</p>
+                        <ul>
+                            <li>Schülerzeitungsartikel</li>
+                            <li>Station Kultur im Oberbräu</li>
                         </ul>
                     </div>:null}
                 </div>
@@ -100,15 +120,30 @@ class About extends React.Component{
                             </svg>
                             show team info</h1>}
                     {this.state.mehr?<div className="grid">
-                        <p>Katharina Blind</p>
+                        <p>Leonard von Foerster:</p>
+                        <ul>
+                            <li>App Development with Flutter</li>
+                            <li>Content for the Old Townhall</li>
+                        </ul>
+                        <p>Katharina Blind:</p>
                         <ul>
                             <li>Design and content strategy</li>
                             <li>Content for Herdergarten</li>
                         </ul>
+                        <p>Fabian Kuske:</p>
+                        <ul>
+                            <li>Transfered content from website to app</li>
+                            <li>Content for trainstation</li>
+                        </ul>
                         <p>Tobias Bauer:</p>
                         <ul>
                             <li>Web development with ReactJS</li>
-                            <li>Station about the Teufelsgraben</li>
+                            <li>Content for Teufelsgraben</li>
+                        </ul>
+                        <p>Philipp Dunst:</p>
+                        <ul>
+                            <li>Article for the students magazine</li>
+                            <li>Content for Oberbräu</li>
                         </ul>
                     </div>:null}
                     </div>

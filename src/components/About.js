@@ -150,6 +150,11 @@ class About extends React.Component{
                             <li>Web development with ReactJS</li>
                             <li>Content for Teufelsgraben</li>
                         </ul>
+                        <p>Lisa Hartlep:</p>
+                        <ul>
+                            <li>Sponsors cooperation</li>
+                            <li>Content for St. Laurentiuskirche</li>
+                        </ul>
                         <p>Ben Rech:</p>
                         <ul>
                             <li>Newspaper article</li>
@@ -157,7 +162,7 @@ class About extends React.Component{
                         </ul>
                         <p>Takemi Ando:</p>
                         <ul>
-                            <li>marketing</li>
+                            <li>Marketing</li>
                             <li>Content for Pestkapelle</li>
                         </ul>
                         <p>Philipp Dunst:</p>

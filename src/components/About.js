@@ -62,7 +62,7 @@ class About extends React.Component{
                             <li>Erstellung der App mit Flutter</li>
                             <li>Station zum Alten Rathaus</li>
                         </ul>
-                        <p>Katharina Blind:</p>
+                        <p>Katarina Blind:</p>
                         <ul>
                             <li>Design und Inhaltsstrategie</li>
                             <li>Station zum Herdergarten</li>
@@ -86,6 +86,11 @@ class About extends React.Component{
                         <ul>
                             <li>Sponsorenzusammenarbeit</li>
                             <li>Station zur St. Laurentiuskirche</li>
+                        </ul>
+                        <p>Ben Rech:</p>
+                        <ul>
+                            <li>Erstellung des Merkurartikels</li>
+                            <li>Station zur alten Post</li>
                         </ul>
                         <p>Takemi Ando:</p>
                         <ul>
@@ -125,10 +130,15 @@ class About extends React.Component{
                             <li>App Development with Flutter</li>
                             <li>Content for the Old Townhall</li>
                         </ul>
-                        <p>Katharina Blind:</p>
+                        <p>Katarina Blind:</p>
                         <ul>
                             <li>Design and content strategy</li>
                             <li>Content for Herdergarten</li>
+                        </ul>
+                        <p>Caroline Reiter:</p>
+                        <ul>
+                            <li>Project Manager</li>
+                            <li>Content for Marketplace</li>
                         </ul>
                         <p>Fabian Kuske:</p>
                         <ul>
@@ -139,6 +149,16 @@ class About extends React.Component{
                         <ul>
                             <li>Web development with ReactJS</li>
                             <li>Content for Teufelsgraben</li>
+                        </ul>
+                        <p>Ben Rech:</p>
+                        <ul>
+                            <li>Newspaper article</li>
+                            <li>Content for the old post station</li>
+                        </ul>
+                        <p>Takemi Ando:</p>
+                        <ul>
+                            <li>marketing</li>
+                            <li>Content for Pestkapelle</li>
                         </ul>
                         <p>Philipp Dunst:</p>
                         <ul>

@@ -1,5 +1,8 @@
 .aboutContent {
-    p,li {
+    a {
+        color: rgb(77, 151, 164) !important;
+    }
+    p,li,a {
         font-family: Raleway-Medium;
         font-style: normal;
         font-weight: normal;
@@ -65,7 +68,7 @@
         display: grid;
         grid-template-columns: 30vw calc(70vw - 135px);
         margin-left: 25px;
-        p,li {
+        p,li,a {
             margin: 0 5px 16px 0;
         }
         ul{
@@ -99,7 +102,7 @@
 
 @media(max-width: 800px) {
     .aboutContent{
-        p,li {
+        p,li,a {
             font-size: 18px;
             line-height: 21px;
             margin: 0 27px 20px 27px;

@@ -57,7 +57,7 @@ class About extends React.Component{
                             </svg>
                             mehr zum Team</h1>}
                     {this.state.mehr?<div className="grid">
-                        <p>Leonard von Foerster:</p>
+                        <a href="https://github.com/Leo-vf">Leonard von Foerster:</a>
                         <ul>
                             <li>Erstellung der App mit Flutter</li>
                             <li>Station zum Alten Rathaus</li>
@@ -66,6 +66,12 @@ class About extends React.Component{
                         <ul>
                             <li>Design und Inhaltsstrategie</li>
                             <li>Station zum Herdergarten</li>
+                        </ul>
+                        <a href="https://github.com/Tobias-Bauer">Tobias Bauer:</a>
+                        <ul>
+                            <li>Erstellung der Website mit ReactJS</li>
+                            <li>Veröffentlichung der App mit Google Play Console</li>
+                            <li>Station zum Teufelsgraben</li>
                         </ul>
                         <p>Caroline Reiter:</p>
                         <ul>
@@ -76,11 +82,6 @@ class About extends React.Component{
                         <ul>
                             <li>Übertragung der Inhalte von Website zur App</li>
                             <li>Station zum Bahnhof</li>
-                        </ul>
-                        <p>Tobias Bauer:</p>
-                        <ul>
-                            <li>Erstellung der Website mit ReactJS</li>
-                            <li>Station zum Teufelsgraben</li>
                         </ul>
                         <p>Lisa Hartlep:</p>
                         <ul>
@@ -125,7 +126,7 @@ class About extends React.Component{
                             </svg>
                             show team info</h1>}
                     {this.state.mehr?<div className="grid">
-                        <p>Leonard von Foerster:</p>
+                        <a href="https://github.com/Leo-vf">Leonard von Foerster:</a>
                         <ul>
                             <li>App Development with Flutter</li>
                             <li>Content for the Old Townhall</li>
@@ -134,6 +135,12 @@ class About extends React.Component{
                         <ul>
                             <li>Design and content strategy</li>
                             <li>Content for Herdergarten</li>
+                        </ul>
+                        <a href="https://github.com/Tobias-Bauer">Tobias Bauer:</a>
+                        <ul>
+                            <li>Web development with ReactJS</li>
+                            <li>App publishing with Google Play Console</li>
+                            <li>Content for Teufelsgraben</li>
                         </ul>
                         <p>Caroline Reiter:</p>
                         <ul>
@@ -144,11 +151,6 @@ class About extends React.Component{
                         <ul>
                             <li>Transfered content from website to app</li>
                             <li>Content for trainstation</li>
-                        </ul>
-                        <p>Tobias Bauer:</p>
-                        <ul>
-                            <li>Web development with ReactJS</li>
-                            <li>Content for Teufelsgraben</li>
                         </ul>
                         <p>Lisa Hartlep:</p>
                         <ul>

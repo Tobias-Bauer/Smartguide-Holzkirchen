@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Map from './components/Map';
 import Station from './components/Station';
 import About from './components/About';
+import Policy from './components/Policy';
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import './App.scss';
 
@@ -43,6 +44,7 @@ class App extends React.Component{
               <Route path="/map/:language" component={Map} />
               <Route path="/station/:language/:id" component={Station} />
               <Route path="/about/:language" component={About} />
+              <Route path="/policy" component={Policy} />
               <Redirect path="/map" to="/map/de"/>
               <Redirect path="*" to="/home/de"/>
           </Switch>

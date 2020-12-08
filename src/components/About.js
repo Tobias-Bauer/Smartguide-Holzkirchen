@@ -62,7 +62,7 @@ class About extends React.Component{
                             <li>Erstellung der App mit Flutter</li>
                             <li>Station zum Alten Rathaus</li>
                         </ul>
-                        <p>Katarina Blind:</p>
+                        <a href="https://github.com/katarinablind">Katarina Blind:</a>
                         <ul>
                             <li>Design und Inhaltsstrategie</li>
                             <li>Station zum Herdergarten</li>
@@ -131,7 +131,7 @@ class About extends React.Component{
                             <li>App Development with Flutter</li>
                             <li>Content for the Old Townhall</li>
                         </ul>
-                        <p>Katarina Blind:</p>
+                        <a href="https://github.com/katarinablind">Katarina Blind:</a>
                         <ul>
                             <li>Design and content strategy</li>
                             <li>Content for Herdergarten</li>

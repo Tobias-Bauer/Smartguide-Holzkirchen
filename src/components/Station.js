@@ -2,8 +2,9 @@ import React from "react";
 import data from '../data.json';
 import dataEn from '../data-en.json'
 import {Link} from 'react-router-dom';
-import './Station.scss'
-import imageData from '../data-images.json'
+import './Station.scss';
+import imageData from '../data-images.json';
+import Footer from './Footer';
 
 const green = {backgroundColor: "#A0C510", color: "white"}
 var lastX = null;
@@ -166,6 +167,7 @@ class Station extends React.Component{
                         <p>{Math.floor(this.state.duration/60)+":"+(Math.floor(this.state.duration)-Math.floor(this.state.duration/60)*60)}</p>
                     </div>:null}
                 </div>
+                <Footer language={this.state.style1 === green} name="stationFooter"/>
             </div>
         );
     }

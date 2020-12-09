@@ -44,7 +44,7 @@ class App extends React.Component{
               <Route path="/map/:language" component={Map} />
               <Route path="/station/:language/:id" component={Station} />
               <Route path="/about/:language" component={About} />
-              <Route path="/policy" component={Policy} />
+              <Route path="/policy/:language" component={Policy} />
               <Redirect path="/map" to="/map/de"/>
               <Redirect path="*" to="/home/de"/>
           </Switch>

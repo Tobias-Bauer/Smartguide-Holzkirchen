@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import "./About.scss"
+import Footer from './Footer';
 
 var green = {backgroundColor: "#A0C510", color: "white"}
 class About extends React.Component{
@@ -183,6 +184,7 @@ class About extends React.Component{
                 </h5>
             </Link>
         </div>
+        <Footer language={this.state.language==="de"} name="middle"/>
         </div>
         )
     }

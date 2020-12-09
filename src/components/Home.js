@@ -1,5 +1,7 @@
 import React from "react";
 import './Home.scss';
+import Footer from './Footer';
+
 
 var green = {backgroundColor: "#A0C510", color: "white"}
 class App extends React.Component{
@@ -67,6 +69,7 @@ class App extends React.Component{
                 {this.state.style1 === green?
                     <a href={"/about/de"} className="about" >Über dieses Projekt</a>:
                     <a href={"/about/en"} className="about" >About this Projekt</a>}
+                    <Footer language={this.state.style1 === green} name="fixed"/>
             </div>
         );
     }

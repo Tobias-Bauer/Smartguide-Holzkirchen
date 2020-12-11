@@ -39,7 +39,7 @@
 .ContainerHome{
     display: flex;
 }
-.languageButton{
+.languageButton, .policyButton{
     position: absolute;
     width: min-content;
     height: min-content;
@@ -165,7 +165,7 @@
                 line-height: 40px;
             }
         }
-        .languageButton {
+        .languageButton, .policyButton {
             position: relative;
             margin: 0 0 0 42px;
             left: 0;

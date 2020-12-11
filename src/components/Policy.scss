@@ -1,0 +1,16 @@
+.policy {
+    padding:1em;
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .languageButton, .policyButton {
+        position: relative;
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        p {
+            white-space: nowrap;
+        }
+    }
+}

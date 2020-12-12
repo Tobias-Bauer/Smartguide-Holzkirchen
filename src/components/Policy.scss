@@ -14,3 +14,16 @@
         }
     }
 }
+@media(max-width: 590px){
+    .buttonContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .languageButton, .policyButton {
+        p {
+            font-size: medium;
+            padding: 5px;
+            line-height: 20px;
+        }
+    }
+}

@@ -8,7 +8,7 @@ export default class Footer extends React.Component{
                 <div className={`footer ${this.props.name}`} style={this.props.style}>
                     {this.props.language?
                     <Link to={"/policy/de"}>Datenschutzerklärung und Impressum</Link>:
-                    <Link to={"/policy/de"}>Privacy Policy and Legal Notice</Link>}
+                    <Link to={"/policy/en"}>Privacy Policy and Legal Notice</Link>}
                 </div>
         )
 }

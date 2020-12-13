@@ -17,6 +17,7 @@ jobs:
       - name: Build
         run: CI= npm run build
       - name: Archive Production Artifact
+        run: mkdir -p dist
         uses: actions/upload-artifact@master
         with:
           name: dist

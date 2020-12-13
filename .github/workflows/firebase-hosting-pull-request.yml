@@ -32,7 +32,6 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
-          path: build
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
@@ -41,4 +40,3 @@ jobs:
           projectId: smartguide-holzkirchen
           expires: never
           channelId: live
-          entryPoint: Smartguide-Holzkirchen

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-      - uses: actions/checkout@master
+        uses: actions/checkout@master
       - name: Install Dependencies
         run: npm install
       - name: Build
@@ -34,7 +34,7 @@ jobs:
           name: dist
           path: dist
       - name: Deploy to Firebase
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SMARTGUIDE_HOLZKIRCHEN }}'

@@ -39,5 +39,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SMARTGUIDE_HOLZKIRCHEN }}'
           projectId: smartguide-holzkirchen
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+          expires: never
+          channelId: live

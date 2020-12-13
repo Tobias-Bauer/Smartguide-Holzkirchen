@@ -34,7 +34,7 @@ jobs:
           name: build
           path: build
       -name: change dir
-        run: cd Smartguide-Holzkirchen && ls
+        run: cd Smartguide-Holzkirchen
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:

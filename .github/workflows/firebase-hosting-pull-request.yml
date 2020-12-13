@@ -19,7 +19,7 @@ jobs:
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: dist
+          name: build
           path: build
   deploy:
     name: Deploy
@@ -31,7 +31,7 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@master
         with:
-          name: dist
+          name: build
           path: build
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0

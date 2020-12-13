@@ -73,7 +73,7 @@ class Map extends React.Component{
                         {localStorage.getItem('darkmode')==="true"?<p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null, language: "en"})} style={this.state.style2 === green?{backgroundColor: "#A0C510",color: "black"}:{}}>EN</p>:
                         <p onClick={() => this.setState({style1: {}, style2: green, data: dataEn, selectedHotspot: null, language: "en"})} style={this.state.style2}>EN</p>}
                     </div>
-                    <Footer language={this.state.language==="de"} name="mapFooter"/>
+                    <Footer dark={localStorage.getItem('darkmode')==="true"} language={this.state.language==="de"} name="mapFooter"/>
                 </div>
                 <ReactMapGL className="mapContainer" onClick={() => window.innerWidth < 800?this.closePopup():null} style={this.state.margin} mapStyle={'mapbox://styles/mapbox/'+(localStorage.getItem('darkmode')==="true"?'dark-v10':'streets-v11')} mapboxApiAccessToken="pk.eyJ1Ijoic21hcnRndWlkZS1ob2x6a2lyY2hlbiIsImEiOiJja2d4b3ZoejgwYTI0MnJwY2t5ZmY1YWVuIn0.okncxJgKzbDrInt8uOOasA"
                 {...this.state.viewport}

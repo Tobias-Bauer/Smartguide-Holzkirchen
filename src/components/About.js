@@ -44,7 +44,7 @@ class About extends React.Component{
                 <br/><br/>
                 Ihr Projektseminar 
                 </p>
-                <div className="aboutTeam">
+                <div className="aboutTeam" style={{backgroundColor: localStorage.getItem('darkmode')==="true"?"#252525":"#00000025"}}>
                     {this.state.mehr?
                     <h1 onClick={() => this.setState({mehr: !this.state.mehr})}>
                         <svg width="21" height="10" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@ class About extends React.Component{
                 <br/><br/>
                 Your Smartguide-Team
                 </p>
-                <div className="aboutTeam">
+                <div className="aboutTeam" style={{backgroundColor: localStorage.getItem('darkmode')==="true"?"#252525":"#00000025"}}>
                     {this.state.mehr?
                     <h1 onClick={() => this.setState({mehr: !this.state.mehr})}>
                         <svg width="21" height="10" viewBox="0 0 21 3" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +184,7 @@ class About extends React.Component{
                 </h5>
             </Link>
         </div>
-        <Footer language={this.state.language==="de"} name="middle"/>
+        <Footer dark={localStorage.getItem('darkmode')==="true"} language={this.state.language==="de"} name="middle"/>
         </div>
         )
     }

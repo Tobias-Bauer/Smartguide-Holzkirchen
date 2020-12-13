@@ -167,7 +167,7 @@ class Station extends React.Component{
                         <p>{Math.floor(this.state.duration/60)+":"+(Math.floor(this.state.duration)-Math.floor(this.state.duration/60)*60)}</p>
                     </div>:null}
                 </div>
-                <Footer language={this.state.style1 === green} name="stationFooter"/>
+                <Footer dark={localStorage.getItem('darkmode')==="true"} language={this.state.style1 === green} name="stationFooter"/>
             </div>
         );
     }

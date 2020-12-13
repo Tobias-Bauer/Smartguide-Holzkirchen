@@ -35,7 +35,7 @@ jobs:
           path: build
       - name: Display structure of downloaded files
         run: ls -R
-        working-directory: /
+        working-directory: .
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:

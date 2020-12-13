@@ -32,6 +32,10 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
+          path: build
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: /
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:

@@ -33,8 +33,6 @@ jobs:
         with:
           name: build
           path: build
-      -name: change dir
-        run: cd Smartguide-Holzkirchen
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
@@ -43,3 +41,4 @@ jobs:
           projectId: smartguide-holzkirchen
           expires: never
           channelId: live
+          entryPoint: Smartguide-Holzkirchen
